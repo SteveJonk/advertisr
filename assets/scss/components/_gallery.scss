@@ -1,13 +1,26 @@
 body .is-style-masonry {
   background: url('assets/img/blur.svg');
-  background-size: contain;
+  background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
   display: grid;
-  grid-template-rows: 1fr auto;
-  break-inside: avoid;
-  & > * {
-    grid-row: 1 / -1;
-    grid-column: 1;
+  // grid-gap: 1.3em !important;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: fit-content;
+  & > figure {
+    width: 100% !important;
+    &:first-of-type {
+      grid-row-end: span 2;
+      height: 80%;
+    }
+  }
+  @include onlyDesktop {
+    padding: 40px;
+    margin: -40px;
+    margin-block-start: -40px !important;
+    margin-block-end: -40px !important;
+  }
+  @include Tablet {
+    background-size: 70%;
   }
 }

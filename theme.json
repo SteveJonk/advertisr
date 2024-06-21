@@ -133,7 +133,8 @@
     },
     "spacing": {
       "margin": true,
-      "padding": true
+      "padding": true,
+      "blockGap": true
     },
     "typography": {
       "fluid": true,
@@ -167,7 +168,22 @@
       ]
     },
     "useRootPaddingAwareAlignments": false,
-    "blocks": {}
+    "blocks": {
+      "core/columns": {
+        "spacing": {
+          "blockGap": true
+        }
+      },
+      "core/gallery": {
+        "spacing": {
+          "blockGap": true
+        }
+      }
+    }
   },
-  "styles": {}
+  "styles": {
+    "spacing": {
+      "blockGap": "30px"
+    }
+  }
 }
