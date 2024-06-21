@@ -1,8 +1,5 @@
 @import 'tailwindcss/base';
-/*
- * uncomment if adding custom base styles
-@import "./custom-base-styles.css";
-*/
+@import "./custom-base-styles";
 
 @import 'tailwindcss/components';
 /*
@@ -31,7 +28,4 @@ body.admin-bar {
 @import './components/admin-login';
 @import './components/buttons';
 @import './components/container';
-
-body {
-  background-image: url('/assets/img/hello-world.jpg');
-}
+@import './components/navbar';

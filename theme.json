@@ -7,19 +7,104 @@
     "color": {
       "palette": [
         {
-          "slug": "primary",
-          "color": "#009781",
-          "name": "Primary"
+          "name": "Primary Color",
+          "slug": "primary-color",
+          "color": "#ff3951"
         },
         {
-          "slug": "secondary",
-          "color": "#E5134E",
-          "name": "Secondary"
+          "name": "Neutral 100",
+          "slug": "neutral-100",
+          "color": "#ffffff"
         },
         {
-          "slug": "dark-grey",
-          "color": "#212121",
-          "name": "Darkgrey"
+          "name": "Neutral 200",
+          "slug": "neutral-200",
+          "color": "#f5f7fc"
+        },
+        {
+          "name": "Neutral 300",
+          "slug": "neutral-300",
+          "color": "#eff0f6"
+        },
+        {
+          "name": "Neutral 400",
+          "slug": "neutral-400",
+          "color": "#d9dbe9"
+        },
+        {
+          "name": "Neutral 500",
+          "slug": "neutral-500",
+          "color": "#a0a3bd"
+        },
+        {
+          "name": "Neutral 600",
+          "slug": "neutral-600",
+          "color": "#6e7191"
+        },
+        {
+          "name": "Neutral 700",
+          "slug": "neutral-700",
+          "color": "#4e4b66"
+        },
+        {
+          "name": "Neutral 800",
+          "slug": "neutral-800",
+          "color": "#14142b"
+        },
+        {
+          "name": "Secondary Light Red",
+          "slug": "secondary-light-red",
+          "color": "#ffefef"
+        },
+        {
+          "name": "Secondary Light Orange",
+          "slug": "secondary-light-orange",
+          "color": "#ffe2d1"
+        },
+        {
+          "name": "Secondary Bright Orange",
+          "slug": "secondary-bright-orange",
+          "color": "#ff8139"
+        },
+        {
+          "name": "Secondary Light Yellow",
+          "slug": "secondary-light-yellow",
+          "color": "#fff4cb"
+        },
+        {
+          "name": "Secondary Bright Yellow",
+          "slug": "secondary-bright-yellow",
+          "color": "#ffc226"
+        },
+        {
+          "name": "Secondary Light Blue",
+          "slug": "secondary-light-blue",
+          "color": "#deebff"
+        },
+        {
+          "name": "Secondary Bright Blue",
+          "slug": "secondary-bright-blue",
+          "color": "#3f80fd"
+        },
+        {
+          "name": "Secondary Light Purple",
+          "slug": "secondary-light-purple",
+          "color": "#eae7ff"
+        },
+        {
+          "name": "Secondary Bright Purple",
+          "slug": "secondary-bright-purple",
+          "color": "#6a35ff"
+        },
+        {
+          "name": "Secondary Light Cyan",
+          "slug": "secondary-light-cyan",
+          "color": "#e1f7ff"
+        },
+        {
+          "name": "Secondary Bright Cyan",
+          "slug": "secondary-bright-cyan",
+          "color": "#3fcffd"
         }
       ]
     },
