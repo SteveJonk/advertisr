@@ -15,10 +15,10 @@ body .is-style-masonry {
     }
   }
   @include onlyDesktop {
-    padding: 40px;
-    margin: -40px;
-    margin-block-start: -40px !important;
-    margin-block-end: -40px !important;
+    padding: 60px;
+    margin: -60px;
+    margin-block-start: -60px !important;
+    margin-block-end: -60px !important;
   }
   @include Tablet {
     background-size: 70%;

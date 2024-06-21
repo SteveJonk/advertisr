@@ -1,0 +1,46 @@
+{
+  "assets/fonts/PlusJakartaSans-Bold.woff2": {
+    "file": "assets/PlusJakartaSans-Bold-8cdec4d9.woff2",
+    "src": "assets/fonts/PlusJakartaSans-Bold.woff2"
+  },
+  "assets/fonts/PlusJakartaSans-Light.woff2": {
+    "file": "assets/PlusJakartaSans-Light-a5126cb6.woff2",
+    "src": "assets/fonts/PlusJakartaSans-Light.woff2"
+  },
+  "assets/fonts/PlusJakartaSans-Medium.woff2": {
+    "file": "assets/PlusJakartaSans-Medium-a945b1c8.woff2",
+    "src": "assets/fonts/PlusJakartaSans-Medium.woff2"
+  },
+  "assets/img/Logo.svg": {
+    "file": "assets/Logo-9d631053.svg",
+    "src": "assets/img/Logo.svg"
+  },
+  "assets/img/blur.svg": {
+    "file": "assets/blur-a51c19db.svg",
+    "src": "assets/img/blur.svg"
+  },
+  "assets/img/icons/carret-down.svg": {
+    "file": "assets/carret-down-007cfe2d.svg",
+    "src": "assets/img/icons/carret-down.svg"
+  },
+  "main.css": {
+    "file": "assets/main-2a385a09.css",
+    "src": "main.css"
+  },
+  "main.js": {
+    "assets": [
+      "assets/PlusJakartaSans-Light-a5126cb6.woff2",
+      "assets/PlusJakartaSans-Medium-a945b1c8.woff2",
+      "assets/PlusJakartaSans-Bold-8cdec4d9.woff2",
+      "assets/Logo-9d631053.svg",
+      "assets/carret-down-007cfe2d.svg",
+      "assets/blur-a51c19db.svg"
+    ],
+    "css": [
+      "assets/main-2a385a09.css"
+    ],
+    "file": "assets/main-c9c1cd87.js",
+    "isEntry": true,
+    "src": "main.js"
+  }
+}

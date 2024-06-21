@@ -33,6 +33,14 @@ function theme_sidebars()
         'before_widget' => '',
         'after_widget' => '',
     ));
+
+    register_sidebar(array(
+        'name' => 'Footer Bottom',
+        'id' => 'footer-bottom',
+        'description' => 'Deze sidebar zal worden getoond onder de footer',
+        'before_widget' => '',
+        'after_widget' => '',
+    ));
 }
 
 add_action('widgets_init', 'theme_sidebars');

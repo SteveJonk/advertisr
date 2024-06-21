@@ -1,0 +1,11 @@
+.footer {
+  color: var(--wp--preset--color--neutral-800);
+  &__top {
+    & > div {
+      border-color: var(--wp--preset--color--neutral-400);
+      & h3 {
+        margin-bottom: 1em;
+      }
+    }
+  }
+}
