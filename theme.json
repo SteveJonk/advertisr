@@ -105,6 +105,11 @@
           "name": "Secondary Bright Cyan",
           "slug": "secondary-bright-cyan",
           "color": "#3fcffd"
+        },
+        {
+          "name": "Primary Shadow",
+          "slug": "primary-shadow",
+          "color": "#ff395147"
         }
       ]
     },

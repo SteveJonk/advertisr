@@ -1,5 +1,5 @@
 @import 'tailwindcss/base';
-@import "./custom-base-styles";
+@import './custom-base-styles';
 
 @import 'tailwindcss/components';
 /*
@@ -13,11 +13,6 @@
 @import "./custom-utilities.css";
 */
 
-/* admin bar fix */
-body.admin-bar {
-  max-height: calc(100vh - 32px);
-}
-
 /* Base */
 @import './screens';
 @import './variables';
@@ -29,3 +24,13 @@ body.admin-bar {
 @import './components/buttons';
 @import './components/container';
 @import './components/navbar';
+
+/* admin bar fix */
+body.admin-bar {
+  max-height: calc(100vh - 32px);
+  & .header {
+    @include onlyDesktop {
+      top: 32px;
+    }
+  }
+}
