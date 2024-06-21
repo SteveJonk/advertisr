@@ -7,8 +7,8 @@
     "color": {
       "palette": [
         {
-          "name": "Primary Color",
-          "slug": "primary-color",
+          "name": "Primary",
+          "slug": "primary",
           "color": "#ff3951"
         },
         {

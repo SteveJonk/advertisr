@@ -1,0 +1,13 @@
+body .is-style-masonry {
+  background: url('assets/img/blur.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  break-inside: avoid;
+  & > * {
+    grid-row: 1 / -1;
+    grid-column: 1;
+  }
+}

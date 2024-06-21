@@ -14,3 +14,11 @@ register_block_style(
         'label'        => __('Full width and square', 'textdomain'),
     )
 );
+
+register_block_style(
+    'core/gallery',
+    array(
+        'name'         => 'masonry',
+        'label'        => __('Masonry', 'textdomain'),
+    )
+);

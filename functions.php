@@ -20,6 +20,9 @@ require_once "inc/components/navbar.php";
 require_once "inc/components/sidebars.php";
 require_once "inc/components/group-block-style.php";
 require_once "inc/components/image-block-style.php";
+require_once "inc/components/button-block-style.php";
+require_once "inc/components/typography-block-style.php";
+
 function theme_support()
 
 {

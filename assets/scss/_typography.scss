@@ -4,8 +4,9 @@ body {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.4;
+  margin-bottom: 0.4em;
 }
 
 h1,
@@ -37,4 +38,20 @@ h4 {
 
 a {
   color: $common-black;
+}
+
+.is-style-line-before {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    background-color: var(--wp--preset--color--primary);
+    position: relative;
+    border-radius: 1000px;
+  }
 }
