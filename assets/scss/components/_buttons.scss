@@ -6,7 +6,7 @@ button,
   background-color: $common-black !important;
   border-radius: 10000px !important;
   color: white !important;
-  font-weight: 700 !important;
+  font-weight: 600 !important;
   box-shadow: none;
   text-decoration: none;
   padding: 0.667em 1.333em;
@@ -28,8 +28,19 @@ button,
   & .wp-block-button {
     letter-spacing: 2px;
     transition: all 0.2s;
+    font-weight: 500;
     &:hover {
       opacity: 0.8;
+      & img {
+        transform: translateX(3px);
+      }
+    }
+    &__link {
+      display: flex;
+      gap: 3px;
+      & img {
+        transition: transform 0.2s;
+      }
     }
     &.is-style-outline {
       &:hover {

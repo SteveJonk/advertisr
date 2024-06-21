@@ -116,7 +116,21 @@
     "custom": {},
     "dimensions": {},
     "position": {},
-    "shadow": {},
+    "shadow": {
+      "defaultPresets": true,
+      "presets": [
+        {
+          "name": "Natural",
+          "slug": "natural",
+          "shadow": "0 8px 20px rgba(20, 20, 43, 0.2)"
+        },
+        {
+          "name": "Theme",
+          "slug": "theme",
+          "shadow": "0 8px 22px rgba(255, 57, 81, 0.28)"
+        }
+      ]
+    },
     "spacing": {
       "margin": true,
       "padding": true
@@ -127,12 +141,12 @@
         {
           "name": "Small",
           "slug": "small",
-          "size": "11px"
+          "size": "12px"
         },
         {
           "name": "Medium",
           "slug": "medium",
-          "size": "14px"
+          "size": "16px"
         },
         {
           "name": "Large",
