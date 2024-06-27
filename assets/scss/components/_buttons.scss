@@ -41,6 +41,9 @@ button,
       & img {
         transition: transform 0.2s;
       }
+      &:hover {
+        color: inherit;
+      }
     }
     &.is-style-outline {
       &:hover {

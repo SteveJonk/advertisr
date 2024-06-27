@@ -9,6 +9,14 @@ register_block_style(
 );
 
 register_block_style(
+    'core/group',
+    array(
+        'name'         => 'icon-background',
+        'label'        => __('Icon Background', 'textdomain'),
+    )
+);
+
+register_block_style(
     'core/columns',
     array(
         'name'         => 'container',

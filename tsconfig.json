@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
-    "types": ["vite/client"]
+    "types": ["vite/client"],
+    "lib": [
+      "es2018",
+      "dom" // 👈️ Add this
+    ]
   }
 }

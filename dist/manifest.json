@@ -24,7 +24,7 @@
     "src": "assets/img/icons/carret-down.svg"
   },
   "main.css": {
-    "file": "assets/main-2a385a09.css",
+    "file": "assets/main-bb4ac8ae.css",
     "src": "main.css"
   },
   "main.js": {
@@ -37,9 +37,9 @@
       "assets/blur-a51c19db.svg"
     ],
     "css": [
-      "assets/main-2a385a09.css"
+      "assets/main-bb4ac8ae.css"
     ],
-    "file": "assets/main-c9c1cd87.js",
+    "file": "assets/main-8e42d003.js",
     "isEntry": true,
     "src": "main.js"
   }

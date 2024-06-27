@@ -147,7 +147,7 @@
         {
           "name": "Medium",
           "slug": "medium",
-          "size": "16px"
+          "size": "18px"
         },
         {
           "name": "Large",
@@ -182,8 +182,18 @@
     }
   },
   "styles": {
+    "color": {
+      "text": "var(--wp--preset--color--neutral-600)"
+    },
     "spacing": {
       "blockGap": "30px"
+    },
+    "blocks": {
+      "core/heading": {
+        "color": {
+          "text": "var(--wp--preset--color--neutral-800)"
+        }
+      }
     }
   }
 }

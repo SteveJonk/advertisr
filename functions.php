@@ -9,12 +9,13 @@ if (!defined('ABSPATH'))
 
 // Main switch to get frontend assets from a Vite dev server OR from production built folder
 // it is recommended to move it into wp-config.php
-define('IS_VITE_DEVELOPMENT', false);
+define('IS_VITE_DEVELOPMENT', true);
 
 
 require_once "inc/inc.vite.php";
 
 // Include needed functions
+require_once "inc/editor/editor.php";
 require_once "inc/components/login-screen.php";
 require_once "inc/components/navbar.php";
 require_once "inc/components/sidebars.php";
