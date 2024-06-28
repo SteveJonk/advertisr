@@ -26,6 +26,48 @@
         &:has(.wpcf7-textarea) {
           grid-column: span 2;
         }
+        &:has(.name),
+        &:has(.email),
+        &:has(.phone),
+        &:has(.company) {
+          position: relative;
+          & input {
+            padding-right: 40px;
+          }
+          &::after {
+            content: '';
+            display: block;
+            width: 22px;
+            height: 22px;
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+        }
+        &:has(.name) {
+          &::after {
+            background-image: url('assets/img/icons/name.svg');
+          }
+        }
+        &:has(.phone) {
+          &::after {
+            background-image: url('assets/img/icons/phone.svg');
+          }
+        }
+        &:has(.email) {
+          &::after {
+            background-image: url('assets/img/icons/email.svg');
+            top: 55%;
+          }
+        }
+        &:has(.company) {
+          &::after {
+            background-image: url('assets/img/icons/company.svg');
+          }
+        }
       }
       & .wpcf7-not-valid-tip {
         margin-top: 10px;
