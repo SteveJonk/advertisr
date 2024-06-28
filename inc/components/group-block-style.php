@@ -17,6 +17,14 @@ register_block_style(
 );
 
 register_block_style(
+    'core/group',
+    array(
+        'name'         => 'logo-background',
+        'label'        => __('Logo Background', 'textdomain'),
+    )
+);
+
+register_block_style(
     'core/columns',
     array(
         'name'         => 'container',
