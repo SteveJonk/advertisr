@@ -16,6 +16,12 @@
   }
 }
 
+.wp-block-columns {
+  @include Mobile {
+    overflow-x: clip;
+  }
+}
+
 div.wp-block-group.has-background {
   padding: 0;
 }

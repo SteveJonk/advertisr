@@ -122,7 +122,7 @@
         {
           "name": "Natural",
           "slug": "natural",
-          "shadow": "0 8px 20px rgba(20, 20, 43, 0.1)"
+          "shadow": "0 5px 12px rgba(20, 20, 43, 0.1)"
         },
         {
           "name": "Theme",
