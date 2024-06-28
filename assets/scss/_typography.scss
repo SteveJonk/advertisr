@@ -1,3 +1,8 @@
+@mixin checkmark-icon($color) {
+  // background-image: url('data:image/svg+xml;utf8,<svg ...><g stroke="#{$color}" ... /></g></svg>');
+  background-image: url('data:image/svg+xml,<svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.3921 26.626C20.572 26.626 26.3921 20.8059 26.3921 13.626C26.3921 6.44608 20.572 0.625977 13.3921 0.625977C6.21219 0.625977 0.39209 6.44608 0.39209 13.626C0.39209 20.8059 6.21219 26.626 13.3921 26.626Z" fill="#{$color}"/><path d="M7.50879 14.4664L10.8706 17.8282L19.2751 9.42371" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+}
+
 body {
   font-family: $text-main;
   font-size: 16px;
@@ -9,8 +14,63 @@ p {
   margin-bottom: 0.4em;
 }
 
-li {
-  font-size: 18px;
+ul {
+  & li {
+    font-size: 18px;
+  }
+  &.is-style-red,
+  &.is-style-blue,
+  &.is-style-yellow,
+  &.is-style-purple,
+  &.is-style-orange,
+  &.is-style-bright-blue {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    & li {
+      display: flex;
+      align-items: center;
+      &::before {
+        content: '';
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        background-size: contain;
+        @include checkmark-icon('%23ff3951');
+      }
+    }
+  }
+  &.is-style-red {
+    & li::before {
+      @include checkmark-icon('%23ff3951');
+    }
+  }
+  &.is-style-blue {
+    & li::before {
+      @include checkmark-icon('%233F80FD');
+    }
+  }
+  &.is-style-yellow {
+    & li::before {
+      @include checkmark-icon('%23FFC226');
+    }
+  }
+  &.is-style-purple {
+    & li::before {
+      @include checkmark-icon('%236A35FF');
+    }
+  }
+  &.is-style-orange {
+    & li::before {
+      @include checkmark-icon('%23FF8139');
+    }
+  }
+  &.is-style-bright-blue {
+    & li::before {
+      @include checkmark-icon('%233FCFFD');
+    }
+  }
 }
 
 h1,

@@ -117,12 +117,12 @@
     "dimensions": {},
     "position": {},
     "shadow": {
-      "defaultPresets": true,
+      "defaultPresets": false,
       "presets": [
         {
           "name": "Natural",
           "slug": "natural",
-          "shadow": "0 8px 20px rgba(20, 20, 43, 0.2)"
+          "shadow": "0 8px 20px rgba(20, 20, 43, 0.1)"
         },
         {
           "name": "Theme",
