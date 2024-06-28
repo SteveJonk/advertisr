@@ -6,3 +6,11 @@ register_block_style(
         'label'        => __('Masonry', 'textdomain'),
     )
 );
+
+register_block_style(
+    'core/cover',
+    array(
+        'name'         => 'reverse',
+        'label'        => __('Reverse', 'textdomain'),
+    )
+);
