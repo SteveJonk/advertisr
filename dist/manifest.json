@@ -15,6 +15,10 @@
     "file": "assets/Logo-9d631053.svg",
     "src": "assets/img/Logo.svg"
   },
+  "assets/img/blur-2.svg": {
+    "file": "assets/blur-2-cfd6b640.svg",
+    "src": "assets/img/blur-2.svg"
+  },
   "assets/img/blur.svg": {
     "file": "assets/blur-a51c19db.svg",
     "src": "assets/img/blur.svg"
@@ -23,8 +27,24 @@
     "file": "assets/carret-down-007cfe2d.svg",
     "src": "assets/img/icons/carret-down.svg"
   },
+  "assets/img/icons/company.svg": {
+    "file": "assets/company-308c03b0.svg",
+    "src": "assets/img/icons/company.svg"
+  },
+  "assets/img/icons/email.svg": {
+    "file": "assets/email-98b6bc87.svg",
+    "src": "assets/img/icons/email.svg"
+  },
+  "assets/img/icons/name.svg": {
+    "file": "assets/name-4d88a521.svg",
+    "src": "assets/img/icons/name.svg"
+  },
+  "assets/img/icons/phone.svg": {
+    "file": "assets/phone-df7b14e2.svg",
+    "src": "assets/img/icons/phone.svg"
+  },
   "main.css": {
-    "file": "assets/main-bb4ac8ae.css",
+    "file": "assets/main-a47bd594.css",
     "src": "main.css"
   },
   "main.js": {
@@ -33,13 +53,18 @@
       "assets/PlusJakartaSans-Medium-a945b1c8.woff2",
       "assets/PlusJakartaSans-Bold-8cdec4d9.woff2",
       "assets/Logo-9d631053.svg",
+      "assets/blur-a51c19db.svg",
+      "assets/blur-2-cfd6b640.svg",
       "assets/carret-down-007cfe2d.svg",
-      "assets/blur-a51c19db.svg"
+      "assets/name-4d88a521.svg",
+      "assets/phone-df7b14e2.svg",
+      "assets/email-98b6bc87.svg",
+      "assets/company-308c03b0.svg"
     ],
     "css": [
-      "assets/main-bb4ac8ae.css"
+      "assets/main-a47bd594.css"
     ],
-    "file": "assets/main-8e42d003.js",
+    "file": "assets/main-0dfbeb13.js",
     "isEntry": true,
     "src": "main.js"
   }

@@ -12,6 +12,7 @@ define('IS_VITE_DEVELOPMENT', true);
 require_once "inc/inc.vite.php";
 
 // Include needed functions
+require_once "inc/custom-post-types.php";
 require_once "inc/editor/editor.php";
 require_once "inc/components/login-screen.php";
 require_once "inc/components/navbar.php";
@@ -21,6 +22,7 @@ require_once "inc/components/image-block-style.php";
 require_once "inc/components/button-block-style.php";
 require_once "inc/components/typography-block-style.php";
 require_once "inc/components/list-block-style.php";
+require_once "inc/components/testimonial-carousel.php";
 
 function theme_support()
 

@@ -1,0 +1,44 @@
+.swiper {
+  & .wp-block-columns {
+    background-color: white;
+  }
+  & figure {
+    &.is-style-rounded {
+      margin-inline-start: 0 !important;
+      aspect-ratio: 1/1;
+      & img {
+        object-fit: contain;
+      }
+      @include Mobile {
+        width: 100%;
+        height: 200px !important;
+        & img {
+          width: 100% !important;
+          height: 100% !important;
+        }
+      }
+    }
+  }
+  & .swiper-button {
+    box-shadow: var(--wp--preset--shadow--natural);
+    aspect-ratio: 1/1;
+    width: 50px;
+    height: 50px;
+    border-radius: 5000px;
+    transition: opacity 0.2s;
+    &:hover {
+      opacity: 0.8;
+    }
+    &::after {
+      font-size: 20px;
+    }
+    &-prev {
+      background-color: white;
+      color: var(--wp--preset--color--neutral-800);
+    }
+    &-next {
+      background-color: var(--wp--preset--color--primary);
+      color: white;
+    }
+  }
+}
