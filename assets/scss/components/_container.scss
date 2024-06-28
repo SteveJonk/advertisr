@@ -22,9 +22,7 @@
 .wp-block-columns,
 .wp-block-group {
   &.is-style-container {
-    @include Mobile {
-      overflow-x: clip;
-    }
+    overflow-x: clip;
   }
 }
 
@@ -43,7 +41,7 @@ div.wp-block-group.has-background {
   width: 100%;
 }
 
-div {
+.wp-block-columns {
   &.is-style-background-colors {
     position: relative;
     &::after {
@@ -56,6 +54,26 @@ div {
       width: 200%;
       height: 200%;
       background: url('assets/img/blur.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
+  }
+}
+
+.wp-block-group {
+  &.is-style-background-colors {
+    position: relative;
+    &::after {
+      content: '';
+      z-index: -1;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-65%, -40%);
+      width: 200%;
+      height: 200%;
+      background: url('assets/img/blur-2.svg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain;
