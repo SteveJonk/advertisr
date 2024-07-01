@@ -3,7 +3,7 @@ button,
   border: none;
   cursor: pointer;
   font-family: $text-header;
-  background-color: $primary-color !important;
+  background-color: var(--wp--preset--color--primary) !important;
   border-radius: 10000px !important;
   color: white !important;
   font-weight: 600 !important;

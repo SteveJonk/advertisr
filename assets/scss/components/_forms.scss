@@ -41,8 +41,6 @@
             height: 22px;
             position: absolute;
             right: 15px;
-            top: 50%;
-            transform: translateY(-50%);
             background-size: contain;
             background-repeat: no-repeat;
           }
@@ -50,22 +48,25 @@
         &:has(.name) {
           &::after {
             background-image: url('assets/img/icons/name.svg');
+            top: 12px;
           }
         }
         &:has(.phone) {
           &::after {
             background-image: url('assets/img/icons/phone.svg');
+            top: 13px;
           }
         }
         &:has(.email) {
           &::after {
             background-image: url('assets/img/icons/email.svg');
-            top: 55%;
+            top: 17px;
           }
         }
         &:has(.company) {
           &::after {
             background-image: url('assets/img/icons/company.svg');
+            top: 13px;
           }
         }
       }
@@ -79,7 +80,7 @@
       border: none;
       cursor: pointer;
       font-family: $text-header;
-      background-color: $primary-color;
+      background-color: var(--wp--preset--color--primary);
       border-radius: 10000px;
       color: white;
       font-weight: 600;

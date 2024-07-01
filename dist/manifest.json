@@ -44,7 +44,7 @@
     "src": "assets/img/icons/phone.svg"
   },
   "main.css": {
-    "file": "assets/main-a47bd594.css",
+    "file": "assets/main-c0a9b288.css",
     "src": "main.css"
   },
   "main.js": {
@@ -62,9 +62,9 @@
       "assets/company-308c03b0.svg"
     ],
     "css": [
-      "assets/main-a47bd594.css"
+      "assets/main-c0a9b288.css"
     ],
-    "file": "assets/main-0dfbeb13.js",
+    "file": "assets/main-aa131e4c.js",
     "isEntry": true,
     "src": "main.js"
   }
